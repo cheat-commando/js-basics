@@ -5,7 +5,12 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
-console.log("---Welcome to the Password Validator Tool---");
+console.log(`
+ __        __   __        __   __   __                       __       ___  __   __  
+|__)  /\\  /__\` /__\` |  | /  \\ |__) |  \\    \\  /  /\\  |    | |  \\  /\\   |  /  \\ |__) 
+|    /~~\\ .__/ .__/ |/\\| \\__/ |  \\ |__/     \\/  /~~\\ |___ | |__/ /~~\\  |  \\__/ |  \\ 
+
+\n---Welcome to the Password Validator Tool---\n`);
 
 const requestPassword = function() {
     reader.question("Please enter your password: ", function(password){
